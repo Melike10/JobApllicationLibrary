@@ -53,18 +53,26 @@ Unit testing is the process of testing individual units or components of a softw
 
 ### Why Unit Testing?
 Early Bug Detection: Identify issues before integrating components.
+
 Code Refactoring: Make changes confidently, knowing tests will catch regressions.
+
 Documentation: Tests serve as examples of how the code is expected to behave.
-Tools Used
+
+## Tools Used
 NUnit: Test framework for writing and running tests.
+
 Moq: Mocking library to simulate dependencies and isolate the unit under test.
+
 FluentAssertions: Provides a readable syntax for writing test assertions.
+
 ## 📝 Example Tests
 Here are some key tests included in the project:
 
 ### Test Case 1: Reject Underage Applicants
 Input: Applicant age is below 18.
+
 Expected Output: Application is automatically rejected.
+
 Test Code:
 ```csharp
 
