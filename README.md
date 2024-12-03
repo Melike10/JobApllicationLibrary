@@ -120,12 +120,18 @@ public void Applicant_ShouldTransferredToAutoAccepted_WithStackListAndExperience
 
 ### 📚 Key Learnings
 Dependency Injection: ApplicationEvaluator depends on IIdentityValidator, which is mocked during testing.
+
 Mocking: Using Moq, external dependencies like IIdentityValidator are simulated for isolated testing.
+
 Assertions: Using FluentAssertions for better readability and clarity in tests.
+
 Validation Modes: Conditional business logic with ValidationMode based on applicant's age.
+
 ### 🛠️ Future Enhancements
 Add integration tests to test the entire workflow.
+
 Include validation for additional applicant details.
+
 Enhance the tech stack comparison logic with weighted matching.
 ## 🤝 Contributing
 Feel free to fork the repository, submit pull requests, or open issues to suggest improvements.
